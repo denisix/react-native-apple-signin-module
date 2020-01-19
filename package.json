@@ -1,5 +1,5 @@
 {
-  "name": "react-native-apple-signin",
+  "name": "react-native-apple-signin-module",
   "title": "React Native Apple Signin",
   "version": "1.0.0",
   "description": "React-Native module that provides basic Apple SignIn authorization for your app",
@@ -9,15 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/denisix/react-native-apple-signin.git",
-    "baseUrl": "https://github.com/denisix/react-native-apple-signin"
+    "url": "git+https://github.com/denisix/react-native-apple-signin-module.git",
+    "baseUrl": "https://github.com/denisix/react-native-apple-signin-module"
   },
   "keywords": [
     "apple",
     "signin",
     "react-native",
     "apple-signin",
-    "react-native-apple-signin"
+    "react-native-apple",
+    "react-native-apple-sign",
+    "react-native-apple-signin",
+    "react-native-apple-signin-module"
   ],
   "author": {
     "name": "Den",

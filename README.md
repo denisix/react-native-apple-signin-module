@@ -1,18 +1,18 @@
-# react-native-apple-sign-in
+# react-native-apple-signin-module
 
 React-Native module that provides basic **Apple SignIn** authorization for your app
 
 ## Getting started
 
-`$ npm install react-native-apple-sign-in --save`
+`$ npm install react-native-apple-signin-module --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-apple-sign-in`
+`$ react-native link react-native-apple-signin-module`
 
 ## Usage
 ```javascript
-import AppleSignin from 'react-native-apple-sign-in';
+import AppleSignin from 'react-native-apple-signin-module';
 
 // setup listener for signin events:
 AppleSignIn.onSignIn(c => {
