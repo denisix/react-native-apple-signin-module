@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Den" => "denisix@gmail.com" }
-  s.platforms    = { :ios => "9.0" }
+  s.platforms    = { :ios => "13.0" }
   s.source       = { :git => "https://github.com/denisix/react-native-apple-signin-module.git", :tag => "#{s.version}" }
   s.swift_version = '5.1'
 
