@@ -1,7 +1,7 @@
 {
   "name": "react-native-apple-signin-module",
   "title": "React Native Apple Signin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React-Native module that provides basic Apple SignIn authorization for your app",
   "main": "index.js",
   "scripts": {
