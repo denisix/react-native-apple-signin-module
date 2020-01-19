@@ -1,5 +1,7 @@
 # react-native-apple-signin
 
+React-Native module that provides basic **Apple SignIn** authorization for your app
+
 ## Getting started
 
 `$ npm install react-native-apple-signin --save`
@@ -16,8 +18,14 @@ import AppleSignin from 'react-native-apple-signin';
 AppleSignIn.onSignIn(c => {
   console.log('- c =>', c)
 
-  // c can contain object with the values: 
-  // { uid, email, nick, givenName, familyName }
+  // after user signin - you will receive object, something like this: 
+  // { 
+  //   uid: '023..', 
+  //   email: 'some@email.com',
+  //   nick: 'nickname',
+  //   givenName: 'Mike',
+  //   familyName: 'West'
+  // }
 
 })
 
@@ -25,7 +33,6 @@ AppleSignIn.onSignIn(c => {
 AppleSignIn.signIn('', c => {
 console.log('- signIn() method callback ->', c)
 })
-
-
-// next time we can request signIn() with the previously saved `uid` variable, - the process will take much less time without annoying user
 ```
+* next time you can use provided `uid` to sign in faster using `signIn(uid, ..` 
+
