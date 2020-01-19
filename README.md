@@ -10,6 +10,11 @@ React-Native module that provides basic **Apple SignIn** authorization for your 
 
 `$ react-native link react-native-apple-signin-module`
 
+`$ cd ios && pod install`
+
+* open your project in Xcode and in Explorer click on your project root folder, then select tab **Signing & Capabilities**,
+then click on **+ Capability** and start typing **Sign In with Apple**, add by double clicking.
+
 ## Usage
 ```javascript
 import AppleSignin from 'react-native-apple-signin-module';
