@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Den" => "denisix@gmail.com" }
   s.platforms    = { :ios => "13.0" }
   s.source       = { :git => "https://github.com/denisix/react-native-apple-signin-module.git", :tag => "#{s.version}" }
-  s.swift_version = '5.1'
+  s.swift_version = '4.2'
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
